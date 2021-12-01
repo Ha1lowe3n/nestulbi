@@ -671,6 +671,13 @@
     jsonc-parser "3.0.0"
     pluralize "8.0.0"
 
+"@nestjs/sequelize@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@nestjs/sequelize/-/sequelize-8.0.0.tgz#850aa1260dd77e1a8d1860f6408e504060215ea3"
+  integrity sha512-+hCs/uO1b+Vjt9EmKc31Srr5j9k8MI6eDg+NtSkym/u18hC8eW2RjcxxK+62yn5maxMLyp5fTtAEg3YmicYL4Q==
+  dependencies:
+    uuid "8.3.2"
+
 "@nestjs/testing@^8.0.0":
   version "8.2.3"
   resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-8.2.3.tgz#e96a939e147b066ccfac45504f5b8b74536f79b0"

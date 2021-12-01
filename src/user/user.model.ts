@@ -2,7 +2,7 @@ import { CreateUserDto } from './dto/createUser.dto';
 import { Table, Column, Model, DataType } from 'sequelize-typescript';
 
 @Table({ tableName: 'users' })
-export class User extends Model<User, CreateUserDto> {
+export class UserModel extends Model<UserModel, CreateUserDto> {
     @Column({
         type: DataType.INTEGER,
         unique: true,
@@ -26,14 +26,12 @@ export class User extends Model<User, CreateUserDto> {
 
     @Column({
         type: DataType.BOOLEAN,
-        values: ['male', 'female'],
         defaultValue: false,
     })
     banned: boolean;
 
     @Column({
         type: DataType.STRING,
-        values: ['male', 'female'],
         allowNull: true,
     })
     banReason: string;
